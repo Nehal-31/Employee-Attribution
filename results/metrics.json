@@ -1,0 +1,129 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.7517006802721088,
+    "precision": 0.3488372093023256,
+    "recall": 0.6382978723404256,
+    "f1": 0.45112781954887216,
+    "roc_auc": 0.8031699543457662,
+    "cv_roc_auc_mean": 0.827286490337519,
+    "cv_roc_auc_std": 0.028340489193929445,
+    "confusion_matrix": [
+      [
+        191,
+        56
+      ],
+      [
+        17,
+        30
+      ]
+    ]
+  },
+  "Random Forest": {
+    "accuracy": 0.826530612244898,
+    "precision": 0.46296296296296297,
+    "recall": 0.5319148936170213,
+    "f1": 0.49504950495049505,
+    "roc_auc": 0.7925747265052976,
+    "cv_roc_auc_mean": 0.8065621483334547,
+    "cv_roc_auc_std": 0.031009114636529764,
+    "confusion_matrix": [
+      [
+        218,
+        29
+      ],
+      [
+        22,
+        25
+      ]
+    ]
+  },
+  "Baseline (always No)": {
+    "accuracy": 0.8401360544217686,
+    "recall": 0.0
+  },
+  "best_model": "Random Forest",
+  "top_features_rf": [
+    [
+      "MonthlyIncome",
+      0.07945620246549014
+    ],
+    [
+      "TotalWorkingYears",
+      0.06469527738053377
+    ],
+    [
+      "Age",
+      0.06150108870692426
+    ],
+    [
+      "YearsAtCompany",
+      0.04900790501847572
+    ],
+    [
+      "OverTime_No",
+      0.04798963446940648
+    ],
+    [
+      "OverTime_Yes",
+      0.04396577578604603
+    ],
+    [
+      "YearsWithCurrManager",
+      0.043412261358739726
+    ],
+    [
+      "DailyRate",
+      0.042461670931140054
+    ],
+    [
+      "StockOptionLevel",
+      0.038513300094265686
+    ],
+    [
+      "NumCompaniesWorked",
+      0.036564048847490725
+    ]
+  ],
+  "top_features_lr": [
+    [
+      "JobRole_Research Director",
+      -1.4656825583511326
+    ],
+    [
+      "JobRole_Laboratory Technician",
+      1.1943325530471007
+    ],
+    [
+      "JobRole_Sales Representative",
+      1.1206165881634444
+    ],
+    [
+      "BusinessTravel_Non-Travel",
+      -0.9938850212891162
+    ],
+    [
+      "OverTime_No",
+      -0.8928085103320715
+    ],
+    [
+      "EducationField_Other",
+      -0.7981075176502613
+    ],
+    [
+      "BusinessTravel_Travel_Frequently",
+      0.7875664615768554
+    ],
+    [
+      "OverTime_Yes",
+      0.7615220595488393
+    ],
+    [
+      "EducationField_Human Resources",
+      0.7211292387657181
+    ],
+    [
+      "JobRole_Healthcare Representative",
+      -0.6472018534521484
+    ]
+  ]
+}

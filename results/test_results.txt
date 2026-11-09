@@ -1,0 +1,26 @@
+tests/test_project.py::test_TC01_dataset_shape PASSED                   
+tests/test_project.py::test_TC02_constant_and_id_columns_removed PASSED 
+tests/test_project.py::test_TC03_no_missing_values PASSED               
+tests/test_project.py::test_TC04_target_is_binary PASSED                
+tests/test_project.py::test_TC05_attrition_rate_about_16_percent PASSED 
+tests/test_project.py::test_TC06_missing_file_raises PASSED             
+tests/test_project.py::test_TC07_bad_file_without_target_raises PASSED  
+tests/test_project.py::test_TC08_probability_between_0_and_1 PASSED     
+tests/test_project.py::test_TC09_high_risk_profile_scores_above_low_risk_profile PASSED
+tests/test_project.py::test_TC10_unseen_category_does_not_crash PASSED  
+tests/test_project.py::test_TC11_extreme_values_do_not_crash PASSED     
+tests/test_project.py::test_TC12_model_beats_always_no_baseline_on_recall PASSED
+tests/test_project.py::test_TC13_roc_auc_above_random PASSED            
+tests/test_project.py::test_TC14_risk_label_boundaries[0.0-Low] PASSED  
+tests/test_project.py::test_TC14_risk_label_boundaries[0.29-Low] PASSED 
+tests/test_project.py::test_TC14_risk_label_boundaries[0.3-Medium] PASSED
+tests/test_project.py::test_TC14_risk_label_boundaries[0.59-Medium] PASSED
+tests/test_project.py::test_TC14_risk_label_boundaries[0.6-High] PASSED 
+tests/test_project.py::test_TC14_risk_label_boundaries[1.0-High] PASSED 
+tests/test_project.py::test_TC15_db_save_and_read_prediction PASSED     
+tests/test_project.py::test_TC16_db_unregistered_model_rejected PASSED  
+tests/test_project.py::test_TC17_db_history_empty_initially PASSED      
+tests/test_project.py::test_TC18_db_foreign_key_enforced PASSED         
+tests/test_project.py::test_TC19_db_model_metrics_upsert PASSED         
+tests/test_project.py::test_TC20_models_can_be_registered_from_metrics_on_fresh_db PASSED
+============================== 25 passed in 1.71s ==============================
